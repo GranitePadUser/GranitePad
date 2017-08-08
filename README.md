@@ -1,0 +1,2 @@
+# GranitePad
+Notepad is GranitePad
