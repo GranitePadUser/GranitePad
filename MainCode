@@ -1,0 +1,63 @@
+@echo off
+
+echo Copyright (c) 2017 Granitesoft Corporation. All rights reserved.
+echo.
+echo granitepad v. 0.0.2 alpha
+echo.
+pause
+goto WarningMessage
+
+:WarningMessage
+cls
+echo.
+echo.
+echo.
+echo.
+echo.
+echo WARNING! you can edit only 30 lines of text!
+echo.
+echo.
+echo.
+echo.
+echo.
+pause
+
+goto textEdit
+
+:textEdit
+cls
+set /p %TEXT%=01 
+set /p %TEXT%=02 
+set /p %TEXT%=03 
+set /p %TEXT%=04 
+set /p %TEXT%=05 
+set /p %TEXT%=06 
+set /p %TEXT%=07 
+set /p %TEXT%=08 
+set /p %TEXT%=09 
+set /p %TEXT%=10 
+set /p %TEXT%=11 
+set /p %TEXT%=12 
+set /p %TEXT%=13 
+set /p %TEXT%=14 
+set /p %TEXT%=15 
+set /p %TEXT%=16 
+set /p %TEXT%=17 
+set /p %TEXT%=18 
+set /p %TEXT%=19 
+set /p %TEXT%=20 
+set /p %TEXT%=21 
+set /p %TEXT%=22 
+set /p %TEXT%=23 
+set /p %TEXT%=24 
+set /p %TEXT%=25 
+set /p %TEXT%=26 
+set /p %TEXT%=27 
+set /p %TEXT%=28 
+set /p %TEXT%=29 
+set /p %TEXT%=30 
+
+echo.
+echo this was the last line
+
+pause
